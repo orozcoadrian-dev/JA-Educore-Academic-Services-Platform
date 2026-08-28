@@ -333,702 +333,325 @@
 # \## Model
 
 # 
+<div align="center">
 
-# The Model represents the system data and business rules.
+<img src="YOUR-BANNER-PERMALINK-HERE" alt="JA Educore Banner" width="100%" />
 
-# 
+<br />
 
-# The primary domain entities include:
+# JA Educore
 
-# 
+### Academic Services Platform
 
-# \* Student.
+</div>
 
-# \* Staff Member.
+---
 
-# \* Academic Request.
+## Overview
 
-# \* Request Type.
+JA Educore is an academic services management platform designed to centralize and improve the handling of academic requests within an educational institution.
 
-# \* Request Status.
+The platform replaces fragmented processes based on emails and forms with a structured digital environment where students can submit requests, track their progress, and access relevant information. Institutional staff can manage requests, update their status, maintain request history, and generate reports.
 
-# \* Request History.
+---
 
-# 
+## Problem Statement
 
-# The Model layer is responsible for representing the information and rules required to support the academic request management process.
+Students may need to submit academic requests such as:
 
-# 
+- Study certificates
+- Grade review requests
+- Course cancellation requests
+- Clearance certificate requests
+- Request status inquiries
 
-# \---
+Managing these processes through emails and independent forms can result in:
 
-# 
+- Limited request traceability
+- Information loss or fragmentation
+- Increased response times
+- Difficulty monitoring request progress
+- Lack of a centralized request history
 
-# \## View
+JA Educore provides a centralized solution for managing these processes efficiently.
 
-# 
+---
 
-# The View represents the interfaces through which users interact with the platform.
+## Core Objectives
 
-# 
+The platform is designed to support:
 
-# The expected interfaces include:
+1. Student registration
+2. User authentication
+3. Academic request creation
+4. Request status tracking
+5. Administrative request management
+6. Request status updates
+7. Basic report generation
+8. Request history management
 
-# 
+---
 
-# \* Login.
+## Functional Requirements
 
-# \* Registration.
+| ID | Requirement | Priority |
+|---|---|---|
+| FR01 | Register students | High |
+| FR02 | Authenticate users | High |
+| FR03 | Create academic requests | High |
+| FR04 | Consult request status | High |
+| FR05 | Manage academic requests | High |
+| FR06 | Update request status | High |
+| FR07 | Generate basic reports | Medium |
+| FR08 | Maintain request history | High |
 
-# \* Student dashboard.
+### Acceptance Criteria
 
-# \* Academic request creation.
+- Student information must be successfully registered.
+- User credentials must be validated before access is granted.
+- Each academic request must receive a unique identifier.
+- Users must be able to consult the current status of their requests.
+- Authorized staff must be able to manage and process requests.
+- Status changes must be reflected throughout the request lifecycle.
+- Relevant information must be available for reporting.
+- Request events and status changes must remain traceable.
 
-# \* Request consultation.
+---
 
-# \* Staff dashboard.
+## Non-Functional Requirements
 
-# \* Request management.
+| ID | Requirement | Priority |
+|---|---|---|
+| NFR01 | Provide responsive system performance | Medium |
+| NFR02 | Protect system information | High |
 
-# \* Reports.
+The system should provide relevant responses in less than three seconds under the defined conditions.
 
-# 
+Access to protected information must be restricted to authorized users.
 
-# The View layer should focus on presenting information and collecting user interactions without containing unnecessary business logic.
+---
 
-# 
+## User Roles
 
-# \---
+### Student
 
-# 
+Students can:
 
-# \## Controller
+- Register in the platform
+- Authenticate using valid credentials
+- Create academic requests
+- Consult request status
+- Access request history
 
-# 
+### Institutional Staff
 
-# The Controller manages requests originating from the user interface and coordinates the interaction between the View and the Model.
+Authorized staff can:
 
-# 
+- Access submitted requests
+- Review request information
+- Process academic requests
+- Update request statuses
+- Maintain request progression
+- Access information required for management and reporting
 
-# Representative controllers include:
+---
 
-# 
+## Architecture
 
-# \* AuthenticationController.
+JA Educore is designed around a modular architecture using the **Model-View-Controller (MVC)** pattern.
 
-# \* RequestController.
+This approach separates the main responsibilities of the system and supports maintainability, modularity, controlled dependencies, and future scalability.
 
-# \* StudentController.
+### Model
 
-# \* StaffController.
+Represents application data and business rules.
 
-# \* ReportController.
+Main entities include:
 
-# 
+- Student
+- Staff Member
+- Academic Request
+- Request Type
+- Request Status
+- Request History
 
-# The Controller layer is responsible for coordinating application operations while preserving a clear separation between user interaction, business logic, and data representation.
+### View
 
-# 
+Represents the interfaces used by students and institutional staff.
 
-# \---
+Main interfaces include:
 
-# 
+- Login
+- Registration
+- Student dashboard
+- Academic request creation
+- Request consultation
+- Staff dashboard
+- Request management
+- Reports
 
-# \# Core Components
+### Controller
 
-# 
+Coordinates requests from the user interface and manages interaction with the system.
 
-# The system can be organized into independent components, each with a specific responsibility.
+Representative controllers include:
 
-# 
+- AuthenticationController
+- RequestController
+- StudentController
+- StaffController
+- ReportController
 
-# \## Authentication
+---
 
-# 
+## Core Components
 
-# Responsible for:
+| Component | Responsibility |
+|---|---|
+| Authentication | Login and access control |
+| Users | Student and staff management |
+| Academic Requests | Request creation and consultation |
+| Request Management | Request processing and status updates |
+| Notifications | Communication about relevant changes |
+| Reports | Generation of statistics and reports |
+| Persistence | Communication with the database |
 
-# 
+Each component should maintain a clear responsibility, defined inputs and outputs, controlled dependencies, and explicit interfaces.
 
-# \* User login.
+---
 
-# \* Credential validation.
+## Modularity
 
-# \* Access control.
+JA Educore follows a modular design approach where each component focuses on a specific responsibility.
 
-# 
+The architecture aims to maintain:
 
-# \## Users
+- Low coupling
+- High cohesion
+- Clear component boundaries
+- Controlled dependencies
+- Easier maintenance
+- Greater flexibility for future changes
 
-# 
+For example, changes to the notification component should not require modifications across the entire system.
 
-# Responsible for:
+---
 
-# 
+## Design Principles
 
-# \* Student management.
+The project considers the application of the following principles:
 
-# \* Institutional staff management.
+### MVC
 
-# \* User-related information.
+Separates:
 
-# 
+- User interface
+- Application control logic
+- Data and business rules
 
-# \## Academic Requests
+### SOLID
 
-# 
+The design particularly considers:
 
-# Responsible for:
+- Single Responsibility Principle
+- Open/Closed Principle
+- Dependency Inversion Principle
 
-# 
+These principles support a more maintainable and extensible software architecture.
 
-# \* Creating requests.
+---
 
-# \* Consulting requests.
+## Testing
 
-# \* Managing request information.
+The system must be validated through:
 
-# 
+- 5 positive test cases
+- 5 negative test cases
+- 2 non-functional requirement tests
 
-# \## Request Management
+Testing should determine:
 
-# 
+- Which requirements were fulfilled
+- Which requirements were not fulfilled
+- Which tests succeeded
+- Which tests revealed failures
+- What changes are required to improve the solution
 
-# Responsible for:
+### Example Test Cases
 
-# 
+| Test ID | Requirement | Scenario | Expected Result |
+|---|---|---|---|
+| TC01 | FR02 | Valid credentials | Access granted |
+| TC02 | FR02 | Invalid password | Access rejected |
+| TC03 | FR03 | Complete request data | Request created |
+| TC04 | FR03 | Missing required information | Validation error displayed |
 
-# \* Processing academic requests.
+---
 
-# \* Managing request workflows.
+## Future Evolution
 
-# \* Updating request statuses.
+The architecture is designed to support future expansion.
 
-# 
+### PQRS Module
 
-# \## Notifications
+A future phase may include a module for managing:
 
-# 
+- Petitions
+- Complaints
+- Claims
+- Suggestions
 
-# Responsible for:
+### Email Notifications
 
-# 
+The platform may also incorporate an email notification system to inform users about relevant events and request status changes.
 
-# \* Informing users about relevant request changes.
+These future additions require the architecture to support extension without introducing unnecessary modifications to existing components.
 
-# \* Supporting communication associated with status updates.
+---
 
-# 
+## Project Deliverables
 
-# \## Reports
+The complete project includes:
 
-# 
+1. Problem description
+2. Functional and non-functional requirements
+3. Requirements matrix
+4. Test cases
+5. Test results
+6. Development methodology and justification
+7. Software design model
+8. MVC diagram
+9. Architecture diagram
+10. Component descriptions
+11. Modularity analysis
+12. Applied patterns and principles
+13. Conclusions
 
-# Responsible for:
+---
 
-# 
+## Project Structure
 
-# \* Generating basic statistics.
-
-# \* Consolidating relevant system information.
-
-# 
-
-# \## Persistence
-
-# 
-
-# Responsible for:
-
-# 
-
-# \* Communication with the database.
-
-# \* Storage and retrieval of application information.
-
-# 
-
-# Each component should maintain:
-
-# 
-
-# \* A clearly defined responsibility.
-
-# \* Defined inputs.
-
-# \* Defined outputs.
-
-# \* Controlled dependencies.
-
-# \* Explicit interfaces.
-
-# 
-
-# \---
-
-# 
-
-# \# Modularity
-
-# 
-
-# JA Educore is designed with modularity as a central architectural principle.
-
-# 
-
-# Each module should focus on a specific responsibility instead of concentrating unrelated functionality within a single class or component.
-
-# 
-
-# A modular architecture helps reduce the impact of future changes. For example, modifying the notification functionality should not require modifying the entire application.
-
-# 
-
-# The intended result is an architecture characterized by:
-
-# 
-
-# \* Low coupling between components.
-
-# \* High cohesion within each component.
-
-# \* Clear interfaces.
-
-# \* Controlled dependencies.
-
-# \* Improved maintainability.
-
-# \* Greater flexibility for future evolution.
-
-# 
-
-# \---
-
-# 
-
-# \# Design Principles
-
-# 
-
-# The project considers the application of established software design principles and practices.
-
-# 
-
-# \## MVC
-
-# 
-
-# Model-View-Controller separates:
-
-# 
-
-# \* User interface concerns.
-
-# \* Application control logic.
-
-# \* Data and business rules.
-
-# 
-
-# This separation helps organize the system and reduces unnecessary dependencies between major application responsibilities.
-
-# 
-
-# \## SOLID Principles
-
-# 
-
-# The design analysis considers the following principles:
-
-# 
-
-# \### Single Responsibility Principle
-
-# 
-
-# Each class or component should have a clear and focused responsibility.
-
-# 
-
-# \### Open/Closed Principle
-
-# 
-
-# The system should be designed to support extension without requiring unnecessary modification of existing components.
-
-# 
-
-# \### Dependency Inversion Principle
-
-# 
-
-# High-level components should avoid depending directly on low-level implementation details when abstractions can provide a more flexible structure.
-
-# 
-
-# \---
-
-# 
-
-# \# Testing Strategy
-
-# 
-
-# Testing is used to verify whether the implemented solution satisfies the identified requirements.
-
-# 
-
-# The testing process includes:
-
-# 
-
-# \* Positive test cases.
-
-# \* Negative test cases.
-
-# \* Non-functional requirement tests.
-
-# \* Requirement compliance analysis.
-
-# 
-
-# The project requires a minimum of:
-
-# 
-
-# \* 5 positive tests.
-
-# \* 5 negative tests.
-
-# \* 2 non-functional requirement tests.
-
-# 
-
-# A representative testing structure is shown below.
-
-# 
-
-# | Test ID | Related Requirement | Input                                | Expected Result               | Status  |
-
-# | ------- | ------------------- | ------------------------------------ | ----------------------------- | ------- |
-
-# | TC01    | FR02                | Valid user and valid password        | Access is granted             | Pending |
-
-# | TC02    | FR02                | Valid user and invalid password      | Access is rejected            | Pending |
-
-# | TC03    | FR03                | Request with complete information    | Request is created            | Pending |
-
-# | TC04    | FR03                | Request without required information | Validation error is displayed | Pending |
-
-# 
-
-# Testing results should allow the project team to determine:
-
-# 
-
-# \* Which requirements were successfully fulfilled.
-
-# \* Which requirements were not fulfilled.
-
-# \* Which tests produced successful results.
-
-# \* Which tests revealed failures.
-
-# \* What changes may be required.
-
-# \* How compliance with organizational requirements can be demonstrated.
-
-# 
-
-# \---
-
-# 
-
-# \# Technology and Development Approach
-
-# 
-
-# The project analysis considers the selection and justification of:
-
-# 
-
-# \* A development methodology.
-
-# \* A software design model.
-
-# \* A software architecture.
-
-# \* Development tools.
-
-# \* Quality standards.
-
-# \* Diagramming tools.
-
-# \* Version control practices.
-
-# 
-
-# Potential approaches considered within the project framework include:
-
-# 
-
-# \* Scrum.
-
-# \* Kanban.
-
-# \* UML.
-
-# \* Layered architecture.
-
-# \* Model-View-Controller.
-
-# \* SOLID principles.
-
-# \* Design patterns.
-
-# \* Git and GitHub.
-
-# 
-
-# The final selection of technologies and methodology should be justified according to the requirements and architectural needs of the system.
-
-# 
-
-# \---
-
-# 
-
-# \# Future Evolution
-
-# 
-
-# The architecture is expected to support future expansion.
-
-# 
-
-# A planned second phase introduces additional capabilities including:
-
-# 
-
-# \## PQRS Module
-
-# 
-
-# A dedicated module for managing petitions, complaints, claims, and suggestions.
-
-# 
-
-# This addition requires an analysis of:
-
-# 
-
-# \* New components required.
-
-# \* Existing components that may need modification.
-
-# \* Components that can be reused.
-
-# \* Architectural compatibility.
-
-# \* Dependency impact.
-
-# \* Compliance with the Open/Closed Principle.
-
-# 
-
-# \## Email Notification System
-
-# 
-
-# An email notification capability may be integrated to inform users about relevant events and request status changes.
-
-# 
-
-# This evolution reinforces the importance of modularity and low coupling, allowing new functionality to be incorporated without requiring extensive changes across the entire system.
-
-# 
-
-# \---
-
-# 
-
-# \# Quality Attributes
-
-# 
-
-# The platform is designed with attention to the following software quality concerns:
-
-# 
-
-# \* Performance.
-
-# \* Information protection.
-
-# \* Maintainability.
-
-# \* Modularity.
-
-# \* Separation of concerns.
-
-# \* Extensibility.
-
-# \* Testability.
-
-# \* Controlled dependencies.
-
-# \* Traceability.
-
-# 
-
-# These attributes support the objective of creating a solution that can evolve as academic and organizational requirements change.
-
-# 
-
-# \---
-
-# 
-
-# \# Expected Project Deliverables
-
-# 
-
-# The complete project documentation includes:
-
-# 
-
-# 1\. Problem description.
-
-# 2\. Functional and non-functional requirements.
-
-# 3\. Requirements matrix.
-
-# 4\. Test cases.
-
-# 5\. Test results.
-
-# 6\. Selected development methodology and justification.
-
-# 7\. Software design model.
-
-# 8\. MVC diagram.
-
-# 9\. Software architecture diagram.
-
-# 10\. Component descriptions.
-
-# 11\. Modularity analysis.
-
-# 12\. Applied patterns and principles.
-
-# 13\. Conclusions.
-
-# 
-
-# \---
-
-# 
-
-# \# Project Structure
-
-# 
-
-# The repository may be organized around the main architectural responsibilities of the platform.
-
-# 
-
-# ```text
-
-# JA-Educore/
-
-# │
-
-# ├── src/
-
-# │   ├── authentication/
-
-# │   ├── users/
-
-# │   ├── requests/
-
-# │   ├── management/
-
-# │   ├── notifications/
-
-# │   ├── reports/
-
-# │   └── persistence/
-
-# │
-
-# ├── tests/
-
-# │   ├── positive/
-
-# │   ├── negative/
-
-# │   └── non-functional/
-
-# │
-
-# ├── docs/
-
-# │   ├── requirements/
-
-# │   ├── testing/
-
-# │   ├── architecture/
-
-# │   └── diagrams/
-
-# │
-
-# └── README.md
-
-# ```
-
-# 
-
-# The final repository structure may evolve according to the selected programming language, framework, development methodology, and implementation decisions.
-
-# 
-
-# \---
-
-# 
-
-# \# Architectural Vision
-
-# 
-
-# JA Educore is designed as more than a simple request registration system.
-
-# 
-
-# Its purpose is to provide a structured foundation for the digital management of academic services through centralized request handling, controlled user access, request traceability, modular components, and an architecture capable of supporting future growth.
-
-# 
-
-# By separating responsibilities through MVC, organizing functionality into independent components, and applying principles of modularity and maintainable software design, the platform aims to provide a solid foundation for the evolution of academic service management.
-
-# 
-
-# \---
-
-# 
-
-# <div align="center">
-
-# 
-
-# \*\*JA Educore\*\*
-
-# 
-
-# Academic Services Platform
-
-# 
-
-# </div>
-
-
-
+```text
+JA-Educore/
+│
+├── src/
+│   ├── authentication/
+│   ├── users/
+│   ├── requests/
+│   ├── management/
+│   ├── notifications/
+│   ├── reports/
+│   └── persistence/
+│
+├── tests/
+│   ├── positive/
+│   ├── negative/
+│   └── non-functional/
+│
+├── docs/
+│   ├── requirements/
+│   ├── testing/
+│   ├── architecture/
+│   └── diagrams/
+│
+└── README.md
