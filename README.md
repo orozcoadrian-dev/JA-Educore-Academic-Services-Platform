@@ -1,343 +1,8 @@
-# <div align="center">
-
-# 
-
-# <img src="https://github.com/orozcoadrian-dev/JA-Educore-Academic-Services-Platform/blob/1f06575caa3db257a5b86fd423a184200023d04e/01-Branding/Banners/Presentation-banner.png" alt="JA Educore Banner" width="100%">
-
-# 
-
-# \# JA Educore
-
-# 
-
-# \### Academic Services Platform
-
-# 
-
-# </div>
-
-# 
-
-# <br>
-
-# 
-
-# \## Overview
-
-# 
-
-# JA Educore is an academic services management platform designed to centralize, organize, and improve the handling of academic requests within an educational institution.
-
-# 
-
-# The platform addresses the limitations of traditional request management processes based on emails and forms, where information may become difficult to track, response times may increase, and request history may be fragmented.
-
-# 
-
-# JA Educore provides a structured digital environment where students can submit academic requests, monitor their progress, and access relevant information, while institutional staff can manage, process, update, and maintain the lifecycle of each request.
-
-# 
-
-# The system is designed around principles of modularity, separation of responsibilities, maintainability, and scalability, with a focus on supporting the evolution of academic services through a structured software architecture.
-
-# 
-
-# \---
-
-# 
-
-# \## Problem Statement
-
-# 
-
-# Educational institutions frequently manage academic procedures through decentralized communication channels such as email and independent forms.
-
-# 
-
-# Students may need to request services including:
-
-# 
-
-# \* Study certificates.
-
-# \* Grade review requests.
-
-# \* Course cancellation requests.
-
-# \* Clearance certificate requests.
-
-# \* Information about the current status of submitted requests.
-
-# 
-
-# When these processes are managed without a centralized system, several operational issues can arise:
-
-# 
-
-# \* Limited traceability of requests.
-
-# \* Difficulty monitoring request progress.
-
-# \* Information loss or fragmentation.
-
-# \* Increased response times.
-
-# \* Lack of a centralized request history.
-
-# \* Inefficient communication between students and institutional staff.
-
-# 
-
-# JA Educore is proposed as a digital solution to centralize these processes and provide a more structured academic service experience.
-
-# 
-
-# \---
-
-# 
-
-# \# Core Objectives
-
-# 
-
-# The platform is designed to support the following academic service operations:
-
-# 
-
-# 1\. Student registration.
-
-# 2\. User authentication.
-
-# 3\. Creation of academic requests.
-
-# 4\. Request status tracking.
-
-# 5\. Administrative management of submitted requests.
-
-# 6\. Request status updates.
-
-# 7\. Basic report generation.
-
-# 8\. Request history management.
-
-# 
-
-# The objective is to provide a centralized system where academic requests can be created, processed, monitored, and maintained throughout their lifecycle.
-
-# 
-
-# \---
-
-# 
-
-# \# Functional Requirements
-
-# 
-
-# The system is expected to provide the following core functionality.
-
-# 
-
-# | ID   | Requirement                                                    | Priority | Acceptance Criteria                                                          |
-
-# | ---- | -------------------------------------------------------------- | -------- | ---------------------------------------------------------------------------- |
-
-# | FR01 | The system must allow student registration.                    | High     | The student is successfully registered with their corresponding information. |
-
-# | FR02 | The system must allow authorized users to authenticate.        | High     | The system validates the provided credentials.                               |
-
-# | FR03 | Students must be able to create academic requests.             | High     | Each request receives a unique identifier.                                   |
-
-# | FR04 | Users must be able to consult the current status of a request. | High     | The current request status is displayed to the authorized user.              |
-
-# | FR05 | Institutional staff must be able to manage academic requests.  | High     | Authorized staff can access and process assigned or available requests.      |
-
-# | FR06 | Authorized personnel must be able to update request statuses.  | High     | Status changes are registered and reflected in the request lifecycle.        |
-
-# | FR07 | The system must support the generation of basic reports.       | Medium   | Relevant request information can be consolidated into reports.               |
-
-# | FR08 | The system must maintain a history of requests.                | High     | Relevant request events and status changes remain traceable.                 |
-
-# 
-
-# \---
-
-# 
-
-# \# Non-Functional Requirements
-
-# 
-
-# The project establishes performance and security as explicit non-functional concerns.
-
-# 
-
-# | ID    | Requirement                                           | Priority | Acceptance Criteria                                                                     |
-
-# | ----- | ----------------------------------------------------- | -------- | --------------------------------------------------------------------------------------- |
-
-# | NFR01 | The system must provide a responsive user experience. | Medium   | Relevant operations should respond in less than 3 seconds under the defined conditions. |
-
-# | NFR02 | System information must be protected.                 | High     | Only authorized users can access protected information.                                 |
-
-# 
-
-# In addition to the explicitly defined requirements, the project analysis includes the identification of additional non-functional requirements related to the quality, architecture, and operation of the solution.
-
-# 
-
-# \---
-
-# 
-
-# \# User Roles
-
-# 
-
-# JA Educore is structured around the main actors involved in the academic request process.
-
-# 
-
-# \## Student
-
-# 
-
-# Students interact with the platform to:
-
-# 
-
-# \* Register in the system.
-
-# \* Authenticate using valid credentials.
-
-# \* Create academic requests.
-
-# \* Provide the required request information.
-
-# \* Consult the current status of their requests.
-
-# \* Access the historical information associated with their requests.
-
-# 
-
-# \## Institutional Staff
-
-# 
-
-# Authorized institutional personnel interact with the system to:
-
-# 
-
-# \* Access academic requests.
-
-# \* Review submitted information.
-
-# \* Manage request processing.
-
-# \* Update request statuses.
-
-# \* Maintain request progression.
-
-# \* Access information required for operational management.
-
-# \* Contribute to the generation and consultation of reports.
-
-# 
-
-# \---
-
-# 
-
-# \# Academic Request Lifecycle
-
-# 
-
-# The platform manages academic requests as structured entities with identifiable information and a defined lifecycle.
-
-# 
-
-# A typical process includes:
-
-# 
-
-# 1\. A student accesses the platform.
-
-# 2\. The student authenticates successfully.
-
-# 3\. The student creates an academic request.
-
-# 4\. The system assigns a unique identifier to the request.
-
-# 5\. The request becomes available for institutional management.
-
-# 6\. Authorized staff review and process the request.
-
-# 7\. The request status may be updated during its lifecycle.
-
-# 8\. Relevant changes remain associated with the request history.
-
-# 9\. The student can consult the current status of the request.
-
-# 
-
-# This approach improves traceability and provides a centralized mechanism for monitoring academic service processes.
-
-# 
-
-# \---
-
-# 
-
-# \# System Architecture
-
-# 
-
-# JA Educore is conceived as a modular software solution with a clear separation of responsibilities.
-
-# 
-
-# The architectural design is based on component-oriented organization and the Model-View-Controller pattern, allowing the system to separate data and business rules, user interfaces, and application control logic.
-
-# 
-
-# The architecture is intended to support:
-
-# 
-
-# \* Separation of concerns.
-
-# \* Maintainability.
-
-# \* Modularity.
-
-# \* Low coupling.
-
-# \* High cohesion.
-
-# \* Controlled dependencies.
-
-# \* Easier testing.
-
-# \* Future extensibility.
-
-# 
-
-# \---
-
-# 
-
-# \# Model-View-Controller
-
-# 
-
-# \## Model
-
-# 
 <div align="center">
 
-<img src="YOUR-BANNER-PERMALINK-HERE" alt="JA Educore Banner" width="100%" />
+<img src="https://github.com/orozcoadrian-dev/JA-Educore-Academic-Services-Platform/blob/1f06575caa3db257a5b86fd423a184200023d04e/01-Branding/Banners/Presentation-banner.png" alt="JA Educore Banner" width="100%">
 
-<br />
+<br>
 
 # JA Educore
 
@@ -349,13 +14,17 @@
 
 ## Overview
 
-JA Educore is an academic services management platform designed to centralize and improve the handling of academic requests within an educational institution.
+JA Educore is an academic services management platform designed to centralize, organize, and improve the handling of academic requests within an educational institution.
 
-The platform replaces fragmented processes based on emails and forms with a structured digital environment where students can submit requests, track their progress, and access relevant information. Institutional staff can manage requests, update their status, maintain request history, and generate reports.
+The platform replaces fragmented processes based on emails and independent forms with a structured digital environment where students can submit requests, track their progress, and access relevant information. Institutional staff can manage requests, update their status, maintain request history, and generate reports.
+
+The system is designed around principles of modularity, separation of responsibilities, maintainability, and scalability.
 
 ---
 
 ## Problem Statement
+
+Educational institutions frequently manage academic procedures through decentralized communication channels such as email and independent forms.
 
 Students may need to submit academic requests such as:
 
@@ -368,10 +37,11 @@ Students may need to submit academic requests such as:
 Managing these processes through emails and independent forms can result in:
 
 - Limited request traceability
+- Difficulty monitoring request progress
 - Information loss or fragmentation
 - Increased response times
-- Difficulty monitoring request progress
 - Lack of a centralized request history
+- Inefficient communication between students and institutional staff
 
 JA Educore provides a centralized solution for managing these processes efficiently.
 
@@ -389,6 +59,8 @@ The platform is designed to support:
 6. Request status updates
 7. Basic report generation
 8. Request history management
+
+The objective is to provide a centralized system where academic requests can be created, processed, monitored, and maintained throughout their lifecycle.
 
 ---
 
@@ -456,11 +128,38 @@ Authorized staff can:
 
 ---
 
+## Academic Request Lifecycle
+
+A typical process includes:
+
+1. A student accesses the platform.
+2. The student authenticates successfully.
+3. The student creates an academic request.
+4. The system assigns a unique identifier to the request.
+5. The request becomes available for institutional management.
+6. Authorized staff review and process the request.
+7. The request status may be updated during its lifecycle.
+8. Relevant changes remain associated with the request history.
+9. The student can consult the current status of the request.
+
+This approach improves traceability and provides a centralized mechanism for monitoring academic service processes.
+
+---
+
 ## Architecture
 
 JA Educore is designed around a modular architecture using the **Model-View-Controller (MVC)** pattern.
 
-This approach separates the main responsibilities of the system and supports maintainability, modularity, controlled dependencies, and future scalability.
+This approach separates the main responsibilities of the system and supports:
+
+- Separation of concerns
+- Maintainability
+- Modularity
+- Low coupling
+- High cohesion
+- Controlled dependencies
+- Easier testing
+- Future scalability
 
 ### Model
 
@@ -483,11 +182,11 @@ Main interfaces include:
 
 - Login
 - Registration
-- Student dashboard
-- Academic request creation
-- Request consultation
-- Staff dashboard
-- Request management
+- Student Dashboard
+- Academic Request Creation
+- Request Consultation
+- Staff Dashboard
+- Request Management
 - Reports
 
 ### Controller
@@ -496,11 +195,11 @@ Coordinates requests from the user interface and manages interaction with the sy
 
 Representative controllers include:
 
-- AuthenticationController
-- RequestController
-- StudentController
-- StaffController
-- ReportController
+- `AuthenticationController`
+- `RequestController`
+- `StudentController`
+- `StaffController`
+- `ReportController`
 
 ---
 
@@ -539,11 +238,9 @@ For example, changes to the notification component should not require modificati
 
 ## Design Principles
 
-The project considers the application of the following principles:
-
 ### MVC
 
-Separates:
+The MVC pattern separates:
 
 - User interface
 - Application control logic
@@ -553,9 +250,9 @@ Separates:
 
 The design particularly considers:
 
-- Single Responsibility Principle
-- Open/Closed Principle
-- Dependency Inversion Principle
+- **Single Responsibility Principle**
+- **Open/Closed Principle**
+- **Dependency Inversion Principle**
 
 These principles support a more maintainable and extensible software architecture.
 
@@ -626,32 +323,4 @@ The complete project includes:
 11. Modularity analysis
 12. Applied patterns and principles
 13. Conclusions
-
 ---
-
-## Project Structure
-
-```text
-JA-Educore/
-│
-├── src/
-│   ├── authentication/
-│   ├── users/
-│   ├── requests/
-│   ├── management/
-│   ├── notifications/
-│   ├── reports/
-│   └── persistence/
-│
-├── tests/
-│   ├── positive/
-│   ├── negative/
-│   └── non-functional/
-│
-├── docs/
-│   ├── requirements/
-│   ├── testing/
-│   ├── architecture/
-│   └── diagrams/
-│
-└── README.md
