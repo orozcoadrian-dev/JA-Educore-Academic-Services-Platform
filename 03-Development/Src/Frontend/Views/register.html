@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="../Assets/Images/JA-Educore-Logo.png">
+    <link rel="stylesheet" href="../Assets/Fonts/fonts.css">
+    <link rel="stylesheet" href="../Styles/main.css">
+    <title>Crear cuenta | JA Educore</title>
+</head>
+
+<body class="auth-page">
+    <main class="auth-shell auth-shell-register">
+        <a class="auth-brand" href="../index.html"><img src="../Assets/Images/JA-Educore-Logo.png" alt="JA Educore"></a>
+        <section class="auth-content">
+            <div class="auth-heading">
+                <p class="auth-kicker">Empieza tu recorrido</p>
+                <h1>Tu espacio comienza aquí.</h1>
+                <p class="auth-intro">Crea tu cuenta y haz más simple tu experiencia educativa.</p>
+            </div>
+            <form class="auth-form">
+                <div class="field"><label for="name">Nombre completo</label><input id="name" name="name" type="text"
+                        placeholder="Tu nombre" required></div>
+                <div class="field"><label for="register-email">Correo institucional</label><input id="register-email"
+                        name="email" type="email" placeholder="nombre@institucion.edu" required></div>
+                <div class="field"><label for="role">Perfil</label><select id="role" name="role" required>
+                        <option value="" selected disabled>Selecciona tu perfil</option>
+                        <option>Estudiante</option>
+                        <option>Docente</option>
+                        <option>Administrativo</option>
+                    </select></div>
+                <div class="field"><label for="register-password">Contraseña</label><input id="register-password"
+                        name="password" type="password" placeholder="Mínimo 8 caracteres" minlength="8" required></div>
+                <label class="check"><input type="checkbox" required> Acepto los términos y condiciones</label>
+                <button class="button auth-submit" type="submit">Crear mi cuenta <span
+                        aria-hidden="true">→</span></button>
+            </form>
+            <p class="auth-switch">¿Ya tienes una cuenta? <a href="login.html">Inicia sesión</a></p>
+            <a class="auth-back" href="../index.html">← Volver al inicio</a>
+        </section>
+        <p class="auth-footer">Sistema JA <span>·</span> Gestión educativa digital</p>
+    </main>
+</body>
+
+</html>
