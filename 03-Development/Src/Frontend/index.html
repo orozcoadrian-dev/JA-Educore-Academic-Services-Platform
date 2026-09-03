@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="Assets/Images/JA-Educore-Logo.png">
+    <link rel="stylesheet" href="Assets/Fonts/fonts.css">
+    <link rel="stylesheet" href="Styles/main.css">
+    <title>JA Educore</title>
+</head>
+
+<body class="home-page">
+    <header class="site-header container">
+        <a class="brand" href="index.html" aria-label="JA Educore, inicio">
+            <img src="Assets/Images/JA-Educore-Logo.png" alt="Logo JA Educore">
+        </a>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav">Menú</button>
+        <nav class="main-nav" id="main-nav" aria-label="Navegación principal">
+            <a class="nav-link active" href="index.html">Inicio</a>
+            <a class="nav-link" href="#servicios">Soluciones</a>
+            <a class="nav-link" href="#nosotros">Nosotros</a>
+            <a class="nav-link" href="Views/login.html">Acceder</a>
+            <a class="button button-small" href="Views/register.html">Crear cuenta</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero container">
+            <div class="hero-copy reveal">
+                <p class="eyebrow"><span></span> Sistema JA · Gestión educativa digital</p>
+                <h1>La educación avanza cuando todo <em>conecta.</em></h1>
+                <p class="hero-text">Una plataforma clara y poderosa para acompañar cada proceso académico,
+                    administrativo y humano desde un mismo lugar.</p>
+                <div class="hero-actions">
+                    <a class="button" href="Views/register.html">Comenzar ahora <span aria-hidden="true">→</span></a>
+                    <a class="text-link" href="#servicios">Conocer la plataforma <span aria-hidden="true">↘</span></a>
+                </div>
+                <div class="hero-note"><span class="status-dot"></span> Diseñada para instituciones que piensan en
+                    grande</div>
+            </div>
+            <div class="hero-visual reveal reveal-delay">
+                <div class="visual-frame">
+                    <img src="Assets/Images/JA-Educore-fondo.jpg" alt="Estudiantes colaborando en un entorno académico">
+                    <div class="visual-caption"><strong>Un solo espacio.</strong><br>Todo tu ecosistema académico.</div>
+                </div>
+                <div class="floating-mark">JA<span>/</span>01</div>
+            </div>
+        </section>
+
+        <section class="service-strip" id="servicios">
+            <div class="container services-grid">
+                <article class="service-item"><span class="service-number">01</span>
+                    <h2>Orden</h2>
+                    <p>Información centralizada para decisiones más ágiles.</p>
+                </article>
+                <article class="service-item"><span class="service-number">02</span>
+                    <h2>Conexión</h2>
+                    <p>Personas y procesos alineados en tiempo real.</p>
+                </article>
+                <article class="service-item"><span class="service-number">03</span>
+                    <h2>Progreso</h2>
+                    <p>Una visión completa para impulsar resultados.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="closing-section container" id="nosotros">
+            <p class="eyebrow"><span></span> Una nueva forma de avanzar</p>
+            <h2>La tecnología al servicio de lo que realmente importa: <em>aprender.</em></h2>
+        </section>
+    </main>
+
+    <footer class="site-footer container"><span>© 2026 JA Educore</span><span>Fundación Universitaria Colombo
+            Internacional · Cartagena</span></footer>
+    <script src="Scripts/app.js"></script>
+</body>
+
+</html>
