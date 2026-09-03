@@ -1,0 +1,6 @@
+CREATE TABLE official(
+id_official INTEGER PRIMARY KEY AUTO_INCREMENT,
+post VARCHAR(20) NOT NULL,
+area VARCHAR(100) NOT NULL, 
+linkage_date DATE NOT NULL
+);
