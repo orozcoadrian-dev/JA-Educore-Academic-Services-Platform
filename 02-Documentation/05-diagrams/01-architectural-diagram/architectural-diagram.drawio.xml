@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="WcBorF5RB4RuGvndF73n">
+    <mxGraphModel dx="1630" dy="943" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="d-J6hofei7aCCUuc2pbj-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;fontFamily=Tahoma;fontStyle=1" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Poppins&quot;&gt;USUARIO&lt;/font&gt;&lt;div&gt;&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Poppins&quot;&gt;(Estudiante / Funcionario)&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="200" x="330" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="d-J6hofei7aCCUuc2pbj-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="" vertex="1">
+          <mxGeometry height="270" width="661" x="99" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="d-J6hofei7aCCUuc2pbj-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontFamily=Tahoma;fontStyle=1" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Poppins&quot;&gt;VIEWS&lt;/font&gt;&lt;div&gt;&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Poppins&quot;&gt;(Pantallas del sistema)&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="200" x="120" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="d-J6hofei7aCCUuc2pbj-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontFamily=Tahoma;fontStyle=1" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Poppins&quot;&gt;COMPONENTS&lt;/font&gt;&lt;div&gt;&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Poppins&quot;&gt;(Componentes del sistema)&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="200" x="330" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="d-J6hofei7aCCUuc2pbj-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontFamily=Tahoma;fontStyle=1" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Poppins&quot;&gt;ASSETS&lt;/font&gt;&lt;div&gt;&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Poppins&quot;&gt;(Recursos que nutren el frontend)&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="200" x="540" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="d-J6hofei7aCCUuc2pbj-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontFamily=Tahoma;fontStyle=1" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Poppins&quot;&gt;STYLES&lt;/font&gt;&lt;div&gt;&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Poppins&quot;&gt;(Estilos de las pantallas del sistema)&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="200" x="329.5" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="d-J6hofei7aCCUuc2pbj-8" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="437" y="160" as="sourcePoint" />
+            <mxPoint x="436.5" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d-J6hofei7aCCUuc2pbj-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontFamily=Tahoma;fontStyle=1" value="Frontend&lt;div&gt;(HTML, Css, React, Javascript).&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="260" x="130" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="d-J6hofei7aCCUuc2pbj-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="" vertex="1">
+          <mxGeometry height="327" width="710.5" x="90" y="593" as="geometry" />
+        </mxCell>
+        <mxCell id="d-J6hofei7aCCUuc2pbj-13" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="440.5" y="510" as="sourcePoint" />
+            <mxPoint x="440" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d-J6hofei7aCCUuc2pbj-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontFamily=Tahoma;fontStyle=1" value="Backend&lt;div&gt;(Separación de responsabilidades).&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="260" x="118" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="d-J6hofei7aCCUuc2pbj-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontFamily=Tahoma;fontStyle=1" value="ROUTES&lt;br&gt;&lt;div&gt;&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Poppins&quot;&gt;(Endpoints del sistema)&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="200" x="120" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="d-J6hofei7aCCUuc2pbj-17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontFamily=Tahoma;fontStyle=1" value="&lt;div&gt;&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Poppins&quot;&gt;MIDDLEWARE&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Poppins&quot;&gt;(Verifica la seguridad entre peticiones y procesos)&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="200" x="352" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="d-J6hofei7aCCUuc2pbj-18" edge="1" parent="1" source="d-J6hofei7aCCUuc2pbj-16" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="d-J6hofei7aCCUuc2pbj-17" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="440.5" y="520" as="sourcePoint" />
+            <mxPoint x="350" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d-J6hofei7aCCUuc2pbj-22" edge="1" parent="1" source="d-J6hofei7aCCUuc2pbj-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="d-J6hofei7aCCUuc2pbj-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d-J6hofei7aCCUuc2pbj-19" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontFamily=Tahoma;fontStyle=1" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;CONTROLLERS&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;(Se encarga de conectar los datos recibidos del frontend con la lógica backend)&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="200" x="583" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="d-J6hofei7aCCUuc2pbj-20" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="553" y="699" as="sourcePoint" />
+            <mxPoint x="585" y="699" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d-J6hofei7aCCUuc2pbj-24" edge="1" parent="1" source="d-J6hofei7aCCUuc2pbj-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="d-J6hofei7aCCUuc2pbj-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d-J6hofei7aCCUuc2pbj-21" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontFamily=Tahoma;fontStyle=1" value="&lt;div&gt;SERVICES&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;(Aplica las reglas del negocio)&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="200" x="583" y="790" as="geometry" />
+        </mxCell>
+        <mxCell id="d-J6hofei7aCCUuc2pbj-23" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontFamily=Tahoma;fontStyle=1" value="&lt;div&gt;MODELS&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;(Toma una plantilla para hacer operaciones en la base de datos)&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="200" x="352" y="790" as="geometry" />
+        </mxCell>
+        <mxCell id="d-J6hofei7aCCUuc2pbj-25" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontFamily=Tahoma;fontStyle=1;fontColor=#333333;" value="SUPPORT&lt;br&gt;&lt;div&gt;&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Poppins&quot;&gt;(Librerías, configuraciones, utils, DAO)&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="200" x="118" y="790" as="geometry" />
+        </mxCell>
+        <mxCell id="d-J6hofei7aCCUuc2pbj-35" edge="1" parent="1" source="d-J6hofei7aCCUuc2pbj-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="d-J6hofei7aCCUuc2pbj-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d-J6hofei7aCCUuc2pbj-26" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="" vertex="1">
+          <mxGeometry height="112" width="365.25" x="269.38" y="998" as="geometry" />
+        </mxCell>
+        <mxCell id="d-J6hofei7aCCUuc2pbj-28" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0.532;entryY=0.038;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.527;exitY=1.013;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="450.4335000000001" y="920.251" as="sourcePoint" />
+            <mxPoint x="449.683" y="997.8" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d-J6hofei7aCCUuc2pbj-29" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontFamily=Tahoma;fontStyle=1" value="SEED&lt;br&gt;&lt;div&gt;&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Poppins&quot;&gt;(Datos de alimentación del software)&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="200" x="352.01" y="1014" as="geometry" />
+        </mxCell>
+        <mxCell id="d-J6hofei7aCCUuc2pbj-30" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontFamily=Tahoma;fontStyle=1" value="HTTPS /&lt;div&gt;REST API (GET)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="260" x="450" y="555" as="geometry" />
+        </mxCell>
+        <mxCell id="d-J6hofei7aCCUuc2pbj-31" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontFamily=Tahoma;fontStyle=1" value="JDBC&lt;div&gt;XAMPP&lt;/div&gt;&lt;div&gt;MARIA DB&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="260" x="458" y="950" as="geometry" />
+        </mxCell>
+        <mxCell id="d-J6hofei7aCCUuc2pbj-32" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="" vertex="1">
+          <mxGeometry height="112" width="365.25" x="269.39" y="1150" as="geometry" />
+        </mxCell>
+        <mxCell id="d-J6hofei7aCCUuc2pbj-34" parent="1" style="shape=datastore;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;font face=&quot;Tahoma&quot;&gt;&lt;b&gt;DATABASE&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="90" width="90" x="407" y="1161" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,202 @@
+{
+  "version": "31.4.2",
+  "pages": [
+    {
+      "id": "WcBorF5RB4RuGvndF73n",
+      "name": "Página-1",
+      "cells": [
+        {
+          "id": "1",
+          "type": "layer"
+        },
+        {
+          "id": "d-J6hofei7aCCUuc2pbj-1",
+          "type": "node",
+          "parent": "1",
+          "label": "USUARIO\n(Estudiante / Funcionario)",
+          "html": "<font data-font-src=\"https://fonts.googleapis.com/css?family=Poppins\">USUARIO</font><div><font data-font-src=\"https://fonts.googleapis.com/css?family=Poppins\">(Estudiante / Funcionario)</font></div>"
+        },
+        {
+          "id": "d-J6hofei7aCCUuc2pbj-3",
+          "type": "node",
+          "parent": "1"
+        },
+        {
+          "id": "d-J6hofei7aCCUuc2pbj-4",
+          "type": "node",
+          "parent": "1",
+          "label": "VIEWS\n(Pantallas del sistema)",
+          "html": "<font data-font-src=\"https://fonts.googleapis.com/css?family=Poppins\">VIEWS</font><div><font data-font-src=\"https://fonts.googleapis.com/css?family=Poppins\">(Pantallas del sistema)</font></div>"
+        },
+        {
+          "id": "d-J6hofei7aCCUuc2pbj-5",
+          "type": "node",
+          "parent": "1",
+          "label": "COMPONENTS\n(Componentes del sistema)",
+          "html": "<font data-font-src=\"https://fonts.googleapis.com/css?family=Poppins\">COMPONENTS</font><div><font data-font-src=\"https://fonts.googleapis.com/css?family=Poppins\">(Componentes del sistema)</font></div>"
+        },
+        {
+          "id": "d-J6hofei7aCCUuc2pbj-6",
+          "type": "node",
+          "parent": "1",
+          "label": "ASSETS\n(Recursos que nutren el frontend)",
+          "html": "<font data-font-src=\"https://fonts.googleapis.com/css?family=Poppins\">ASSETS</font><div><font data-font-src=\"https://fonts.googleapis.com/css?family=Poppins\">(Recursos que nutren el frontend)</font></div>"
+        },
+        {
+          "id": "d-J6hofei7aCCUuc2pbj-7",
+          "type": "node",
+          "parent": "1",
+          "label": "STYLES\n(Estilos de las pantallas del sistema)",
+          "html": "<font data-font-src=\"https://fonts.googleapis.com/css?family=Poppins\">STYLES</font><div><font data-font-src=\"https://fonts.googleapis.com/css?family=Poppins\">(Estilos de las pantallas del sistema)</font></div>"
+        },
+        {
+          "id": "d-J6hofei7aCCUuc2pbj-8",
+          "type": "edge",
+          "parent": "1"
+        },
+        {
+          "id": "d-J6hofei7aCCUuc2pbj-11",
+          "type": "node",
+          "parent": "1",
+          "label": "Frontend\n(HTML, Css, React, Javascript).",
+          "html": "Frontend<div>(HTML, Css, React, Javascript).</div><div><br></div>"
+        },
+        {
+          "id": "d-J6hofei7aCCUuc2pbj-12",
+          "type": "node",
+          "parent": "1"
+        },
+        {
+          "id": "d-J6hofei7aCCUuc2pbj-13",
+          "type": "edge",
+          "parent": "1"
+        },
+        {
+          "id": "d-J6hofei7aCCUuc2pbj-15",
+          "type": "node",
+          "parent": "1",
+          "label": "Backend\n(Separación de responsabilidades).",
+          "html": "Backend<div>(Separación de responsabilidades).</div><div><br></div>"
+        },
+        {
+          "id": "d-J6hofei7aCCUuc2pbj-16",
+          "type": "node",
+          "parent": "1",
+          "label": "ROUTES\n(Endpoints del sistema)",
+          "html": "ROUTES<br><div><font data-font-src=\"https://fonts.googleapis.com/css?family=Poppins\">(Endpoints del sistema)</font></div>"
+        },
+        {
+          "id": "d-J6hofei7aCCUuc2pbj-17",
+          "type": "node",
+          "parent": "1",
+          "label": "MIDDLEWARE\n(Verifica la seguridad entre peticiones y procesos)",
+          "html": "<div><font data-font-src=\"https://fonts.googleapis.com/css?family=Poppins\">MIDDLEWARE</font></div><div><font data-font-src=\"https://fonts.googleapis.com/css?family=Poppins\">(Verifica la seguridad entre peticiones y procesos)</font></div>"
+        },
+        {
+          "id": "d-J6hofei7aCCUuc2pbj-18",
+          "type": "edge",
+          "parent": "1",
+          "source": "d-J6hofei7aCCUuc2pbj-16",
+          "target": "d-J6hofei7aCCUuc2pbj-17"
+        },
+        {
+          "id": "d-J6hofei7aCCUuc2pbj-22",
+          "type": "edge",
+          "parent": "1",
+          "source": "d-J6hofei7aCCUuc2pbj-19",
+          "target": "d-J6hofei7aCCUuc2pbj-21"
+        },
+        {
+          "id": "d-J6hofei7aCCUuc2pbj-19",
+          "type": "node",
+          "parent": "1",
+          "label": "CONTROLLERS\n(Se encarga de conectar los datos recibidos del frontend con la lógica backend)",
+          "html": "<div><span style=\"background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\">CONTROLLERS</span></div><div><span style=\"background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\">(Se encarga de conectar los datos recibidos del frontend con la lógica backend)</span></div>"
+        },
+        {
+          "id": "d-J6hofei7aCCUuc2pbj-20",
+          "type": "edge",
+          "parent": "1"
+        },
+        {
+          "id": "d-J6hofei7aCCUuc2pbj-24",
+          "type": "edge",
+          "parent": "1",
+          "source": "d-J6hofei7aCCUuc2pbj-21",
+          "target": "d-J6hofei7aCCUuc2pbj-23"
+        },
+        {
+          "id": "d-J6hofei7aCCUuc2pbj-21",
+          "type": "node",
+          "parent": "1",
+          "label": "SERVICES\n(Aplica las reglas del negocio)",
+          "html": "<div>SERVICES</div><div><span style=\"background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\">(Aplica las reglas del negocio)</span></div>"
+        },
+        {
+          "id": "d-J6hofei7aCCUuc2pbj-23",
+          "type": "node",
+          "parent": "1",
+          "label": "MODELS\n(Toma una plantilla para hacer operaciones en la base de datos)",
+          "html": "<div>MODELS</div><div><span style=\"background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));\">(Toma una plantilla para hacer operaciones en la base de datos)</span></div>"
+        },
+        {
+          "id": "d-J6hofei7aCCUuc2pbj-25",
+          "type": "node",
+          "parent": "1",
+          "label": "SUPPORT\n(Librerías, configuraciones, utils, DAO)",
+          "html": "SUPPORT<br><div><font data-font-src=\"https://fonts.googleapis.com/css?family=Poppins\">(Librerías, configuraciones, utils, DAO)</font></div>"
+        },
+        {
+          "id": "d-J6hofei7aCCUuc2pbj-35",
+          "type": "edge",
+          "parent": "1",
+          "source": "d-J6hofei7aCCUuc2pbj-26",
+          "target": "d-J6hofei7aCCUuc2pbj-32"
+        },
+        {
+          "id": "d-J6hofei7aCCUuc2pbj-26",
+          "type": "node",
+          "parent": "1"
+        },
+        {
+          "id": "d-J6hofei7aCCUuc2pbj-28",
+          "type": "edge",
+          "parent": "1"
+        },
+        {
+          "id": "d-J6hofei7aCCUuc2pbj-29",
+          "type": "node",
+          "parent": "1",
+          "label": "SEED\n(Datos de alimentación del software)",
+          "html": "SEED<br><div><font data-font-src=\"https://fonts.googleapis.com/css?family=Poppins\">(Datos de alimentación del software)</font></div>"
+        },
+        {
+          "id": "d-J6hofei7aCCUuc2pbj-30",
+          "type": "node",
+          "parent": "1",
+          "label": "HTTPS /\nREST API (GET)",
+          "html": "HTTPS /<div>REST API (GET)</div>"
+        },
+        {
+          "id": "d-J6hofei7aCCUuc2pbj-31",
+          "type": "node",
+          "parent": "1",
+          "label": "JDBC\nXAMPP\nMARIA DB",
+          "html": "JDBC<div>XAMPP</div><div>MARIA DB</div>"
+        },
+        {
+          "id": "d-J6hofei7aCCUuc2pbj-32",
+          "type": "node",
+          "parent": "1"
+        },
+        {
+          "id": "d-J6hofei7aCCUuc2pbj-34",
+          "type": "node",
+          "parent": "1",
+          "label": "DATABASE",
+          "html": "<font face=\"Tahoma\"><b>DATABASE</b></font>"
+        }
+      ]
+    }
+  ]
+}
