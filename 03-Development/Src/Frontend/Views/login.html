@@ -11,29 +11,39 @@
 </head>
 
 <body class="auth-page">
-    <main class="auth-shell">
-        <a class="auth-brand" href="../index.html"><img src="../Assets/Images/JA-Educore-Logo.png" alt="JA Educore"></a>
-        <section class="auth-content">
-            <div class="auth-heading">
+    <div class="auth-layout">
+        <aside class="auth-aside">
+            <a class="auth-brand" href="../index.html"><img src="../Assets/Images/JA-Educore-Logo.png"
+                    alt="JA Educore"></a>
+            <div class="auth-aside-body">
                 <p class="auth-kicker">Bienvenido de nuevo</p>
-                <h1>Hola, qué bueno verte.</h1>
-                <p class="auth-intro">Ingresa a tu espacio académico y continúa donde lo dejaste.</p>
+                <h2>Un solo lugar para todo tu proceso académico.</h2>
+                <p>Consulta cursos, calificaciones y trámites administrativos sin cambiar de plataforma.</p>
             </div>
-            <form class="auth-form">
-                <div class="field"><label for="email">Correo electrónico</label><input id="email" name="email"
-                        type="email" placeholder="nombre@institucion.edu" required></div>
-                <div class="field"><label for="password">Contraseña</label><input id="password" name="password"
-                        type="password" placeholder="••••••••" required></div>
-                <div class="form-row"><label class="check"><input type="checkbox" name="remember"> Recordarme</label><a
-                        class="form-link" href="#">¿Olvidaste tu contraseña?</a></div>
-                <button class="button auth-submit" type="submit">Iniciar sesión <span
-                        aria-hidden="true">→</span></button>
-            </form>
-            <p class="auth-switch">¿Aún no tienes una cuenta? <a href="register.html">Regístrate</a></p>
-            <a class="auth-back" href="../index.html">← Volver al inicio</a>
-        </section>
-        <p class="auth-footer">Sistema JA <span>·</span> Gestión educativa digital</p>
-    </main>
+            <p class="auth-footer">Sistema JA <span>·</span> Gestión educativa digital</p>
+        </aside>
+
+        <main class="auth-shell">
+            <section class="auth-content">
+                <div class="auth-heading">
+                    <h1>Hola, qué bueno verte.</h1>
+                    <p class="auth-intro">Ingresa a tu espacio académico y continúa donde lo dejaste.</p>
+                </div>
+                <form class="auth-form">
+                    <div class="field"><label for="email">Correo electrónico</label><input id="email" name="email"
+                            type="email" placeholder="nombre@institucion.edu" required></div>
+                    <div class="field"><label for="password">Contraseña</label><input id="password" name="password"
+                            type="password" placeholder="••••••••" required></div>
+                    <div class="form-row"><label class="check"><input type="checkbox" name="remember">
+                            Recordarme</label><a class="form-link" href="#">¿Olvidaste tu contraseña?</a></div>
+                    <button class="button auth-submit" type="submit">Iniciar sesión <span
+                            aria-hidden="true">→</span></button>
+                </form>
+                <p class="auth-switch">¿Aún no tienes una cuenta? <a href="register.html">Regístrate</a></p>
+                <a class="auth-back" href="../index.html">← Volver al inicio</a>
+            </section>
+        </main>
+    </div>
 </body>
 
 </html>
