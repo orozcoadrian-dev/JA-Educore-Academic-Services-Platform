@@ -1,6 +1,6 @@
 -- Create table users in Ja_Educore database if it does not exist in our SQL Server instance.
 CREATE TABLE users(
-id_user INTEGER PRIMARY KEY AUTO_INCREMENT,
+id_user INTEGER NOT NULL PRIMARY KEY AUTO_INCREMENT,
 first_name VARCHAR(45) NOT NULL,
 second_name VARCHAR(45) NULL,
 first_surname VARCHAR(45) NOT NULL,
