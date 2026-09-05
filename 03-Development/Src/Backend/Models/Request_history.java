@@ -1,4 +1,4 @@
-package Backend.Models;
+package Models;
 import java.time.LocalDate;
 
 public class Request_history 
