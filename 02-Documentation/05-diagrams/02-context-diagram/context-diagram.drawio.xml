@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="X90rGxuZoMCrDE4Xrm1k">
+    <mxGraphModel dx="2224" dy="1978" grid="1" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2VytNhTAC-jxfpjFHQLK-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;fontStyle=1;fontFamily=Tahoma;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="JA Educore - Academic Services Platform" vertex="1">
+          <mxGeometry height="160" width="160" x="280" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="2VytNhTAC-jxfpjFHQLK-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1" value="Estudiante" vertex="1">
+          <mxGeometry height="50" width="230" x="245" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="2VytNhTAC-jxfpjFHQLK-3" edge="1" parent="1" source="2VytNhTAC-jxfpjFHQLK-1" style="endArrow=classic;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;exitX=0.248;exitY=0.926;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="390" y="390" as="sourcePoint" />
+            <mxPoint x="320" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2VytNhTAC-jxfpjFHQLK-4" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;exitX=0.248;exitY=0.926;exitDx=0;exitDy=0;exitPerimeter=0;startArrow=classic;startFill=1;endFill=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="400" y="268" as="sourcePoint" />
+            <mxPoint x="400" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2VytNhTAC-jxfpjFHQLK-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Tahoma;" value="1. Datos personales y académicos.&lt;div&gt;2. Solicitudes académicas.&lt;/div&gt;&lt;div&gt;3. Credenciales de login.&lt;/div&gt;&lt;div&gt;4. Aceptación de términos.&lt;/div&gt;&lt;div&gt;5. Información de asignaturas&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="200" x="113" y="335" as="geometry" />
+        </mxCell>
+        <mxCell id="2VytNhTAC-jxfpjFHQLK-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Tahoma;" value="1. Confirmaciones de registro.&lt;div&gt;2. Generación de certificados.&lt;/div&gt;&lt;div&gt;3. Estados de solicitudes.&lt;/div&gt;&lt;div&gt;4. Notificaciones.&lt;/div&gt;&lt;div&gt;5. Movimientos del dashboard.&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="200" x="411" y="337" as="geometry" />
+        </mxCell>
+        <mxCell id="2VytNhTAC-jxfpjFHQLK-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1" value="Funcionario" vertex="1">
+          <mxGeometry height="50" width="230" x="245" y="-80" as="geometry" />
+        </mxCell>
+        <mxCell id="2VytNhTAC-jxfpjFHQLK-8" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;exitX=0.248;exitY=0.926;exitDx=0;exitDy=0;exitPerimeter=0;startArrow=classic;startFill=1;endFill=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="414" y="-30" as="sourcePoint" />
+            <mxPoint x="414" y="142" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2VytNhTAC-jxfpjFHQLK-9" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;exitX=0.248;exitY=0.926;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="304" y="-30" as="sourcePoint" />
+            <mxPoint x="304" y="142" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2VytNhTAC-jxfpjFHQLK-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Tahoma;" value="1. Credenciales de login.&lt;div&gt;2. Filtros de búsqueda.&lt;/div&gt;&lt;div&gt;3. Actualizaciones y respuestas de solicitudes.&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="200" x="104" y="-10" as="geometry" />
+        </mxCell>
+        <mxCell id="2VytNhTAC-jxfpjFHQLK-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Tahoma;" value="1. Lista de solicitudes filtradas.&lt;br&gt;2. Confirmación de actualización" vertex="1">
+          <mxGeometry height="36" width="200" x="416" as="geometry" />
+        </mxCell>
+        <mxCell id="2VytNhTAC-jxfpjFHQLK-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;dashed=1;dashPattern=8 8;" value="Servicio de correo / SMTP / email provider" vertex="1">
+          <mxGeometry height="82" width="230" x="601" y="156" as="geometry" />
+        </mxCell>
+        <mxCell id="2VytNhTAC-jxfpjFHQLK-13" edge="1" parent="1" source="2VytNhTAC-jxfpjFHQLK-1" style="endArrow=classic;html=1;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;exitX=0.928;exitY=0.24;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="300" y="70" as="sourcePoint" />
+            <mxPoint x="600" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2VytNhTAC-jxfpjFHQLK-14" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;entryX=0.913;entryY=0.755;entryDx=0;entryDy=0;entryPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="600" y="238.8" as="sourcePoint" />
+            <mxPoint x="426.0799999999999" y="238.79999999999995" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2VytNhTAC-jxfpjFHQLK-16" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Tahoma;" value="Confirmación de envío / estado de entrega" vertex="1">
+          <mxGeometry height="29" width="167" x="436" y="242" as="geometry" />
+        </mxCell>
+        <mxCell id="2VytNhTAC-jxfpjFHQLK-17" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Tahoma;" value="Eventos a notificar (solicitud creada, estado cambiado)" vertex="1">
+          <mxGeometry height="36" width="164" x="433" y="158" as="geometry" />
+        </mxCell>
+        <mxCell id="2VytNhTAC-jxfpjFHQLK-18" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;" value="Librería para exportar certificados en PDF" vertex="1">
+          <mxGeometry height="82" width="230" x="-112" y="157" as="geometry" />
+        </mxCell>
+        <mxCell id="2VytNhTAC-jxfpjFHQLK-19" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;entryX=0.913;entryY=0.755;entryDx=0;entryDy=0;entryPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="290.9200000000001" y="238.00000000000006" as="sourcePoint" />
+            <mxPoint x="117" y="238" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2VytNhTAC-jxfpjFHQLK-20" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;exitX=0.928;exitY=0.24;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="120" y="158" as="sourcePoint" />
+            <mxPoint x="292" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2VytNhTAC-jxfpjFHQLK-21" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Tahoma;" value="Enviar solicitud de generación de certificado en PDF." vertex="1">
+          <mxGeometry height="36" width="164" x="130" y="234" as="geometry" />
+        </mxCell>
+        <mxCell id="2VytNhTAC-jxfpjFHQLK-22" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Tahoma;" value="&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;1. Generación de PDF.&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;2. Respuesta ante la solicitud&lt;/blockquote&gt;" vertex="1">
+          <mxGeometry height="36" width="210" x="74" y="122" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

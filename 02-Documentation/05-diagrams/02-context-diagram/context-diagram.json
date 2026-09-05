@@ -1,0 +1,140 @@
+{
+  "version": "31.4.2",
+  "pages": [
+    {
+      "id": "X90rGxuZoMCrDE4Xrm1k",
+      "name": "Página-1",
+      "cells": [
+        {
+          "id": "1",
+          "type": "layer"
+        },
+        {
+          "id": "2VytNhTAC-jxfpjFHQLK-1",
+          "type": "node",
+          "parent": "1",
+          "label": "JA Educore - Academic Services Platform"
+        },
+        {
+          "id": "2VytNhTAC-jxfpjFHQLK-2",
+          "type": "node",
+          "parent": "1",
+          "label": "Estudiante"
+        },
+        {
+          "id": "2VytNhTAC-jxfpjFHQLK-3",
+          "type": "edge",
+          "parent": "1",
+          "source": "2VytNhTAC-jxfpjFHQLK-1"
+        },
+        {
+          "id": "2VytNhTAC-jxfpjFHQLK-4",
+          "type": "edge",
+          "parent": "1"
+        },
+        {
+          "id": "2VytNhTAC-jxfpjFHQLK-5",
+          "type": "node",
+          "parent": "1",
+          "label": "1. Datos personales y académicos.\n2. Solicitudes académicas.\n3. Credenciales de login.\n4. Aceptación de términos.\n5. Información de asignaturas",
+          "html": "1. Datos personales y académicos.<div>2. Solicitudes académicas.</div><div>3. Credenciales de login.</div><div>4. Aceptación de términos.</div><div>5. Información de asignaturas</div>"
+        },
+        {
+          "id": "2VytNhTAC-jxfpjFHQLK-6",
+          "type": "node",
+          "parent": "1",
+          "label": "1. Confirmaciones de registro.\n2. Generación de certificados.\n3. Estados de solicitudes.\n4. Notificaciones.\n5. Movimientos del dashboard.",
+          "html": "1. Confirmaciones de registro.<div>2. Generación de certificados.</div><div>3. Estados de solicitudes.</div><div>4. Notificaciones.</div><div>5. Movimientos del dashboard.</div>"
+        },
+        {
+          "id": "2VytNhTAC-jxfpjFHQLK-7",
+          "type": "node",
+          "parent": "1",
+          "label": "Funcionario"
+        },
+        {
+          "id": "2VytNhTAC-jxfpjFHQLK-8",
+          "type": "edge",
+          "parent": "1"
+        },
+        {
+          "id": "2VytNhTAC-jxfpjFHQLK-9",
+          "type": "edge",
+          "parent": "1"
+        },
+        {
+          "id": "2VytNhTAC-jxfpjFHQLK-10",
+          "type": "node",
+          "parent": "1",
+          "label": "1. Credenciales de login.\n2. Filtros de búsqueda.\n3. Actualizaciones y respuestas de solicitudes.",
+          "html": "1. Credenciales de login.<div>2. Filtros de búsqueda.</div><div>3. Actualizaciones y respuestas de solicitudes.</div>"
+        },
+        {
+          "id": "2VytNhTAC-jxfpjFHQLK-11",
+          "type": "node",
+          "parent": "1",
+          "label": "1. Lista de solicitudes filtradas.\n2. Confirmación de actualización",
+          "html": "1. Lista de solicitudes filtradas.<br>2. Confirmación de actualización"
+        },
+        {
+          "id": "2VytNhTAC-jxfpjFHQLK-12",
+          "type": "node",
+          "parent": "1",
+          "label": "Servicio de correo / SMTP / email provider"
+        },
+        {
+          "id": "2VytNhTAC-jxfpjFHQLK-13",
+          "type": "edge",
+          "parent": "1",
+          "source": "2VytNhTAC-jxfpjFHQLK-1"
+        },
+        {
+          "id": "2VytNhTAC-jxfpjFHQLK-14",
+          "type": "edge",
+          "parent": "1"
+        },
+        {
+          "id": "2VytNhTAC-jxfpjFHQLK-16",
+          "type": "node",
+          "parent": "1",
+          "label": "Confirmación de envío / estado de entrega"
+        },
+        {
+          "id": "2VytNhTAC-jxfpjFHQLK-17",
+          "type": "node",
+          "parent": "1",
+          "label": "Eventos a notificar (solicitud creada, estado cambiado)"
+        },
+        {
+          "id": "2VytNhTAC-jxfpjFHQLK-18",
+          "type": "node",
+          "parent": "1",
+          "label": "Librería para exportar certificados en PDF"
+        },
+        {
+          "id": "2VytNhTAC-jxfpjFHQLK-19",
+          "type": "edge",
+          "parent": "1"
+        },
+        {
+          "id": "2VytNhTAC-jxfpjFHQLK-20",
+          "type": "edge",
+          "parent": "1"
+        },
+        {
+          "id": "2VytNhTAC-jxfpjFHQLK-21",
+          "type": "node",
+          "parent": "1",
+          "label": "Enviar solicitud de generación de certificado en PDF."
+        },
+        {
+          "id": "2VytNhTAC-jxfpjFHQLK-22",
+          "type": "node",
+          "parent": "1",
+          "label": "1. Generación de PDF.\n2. Respuesta ante la solicitud",
+          "html": "<blockquote style=\"margin: 0 0 0 40px; border: none; padding: 0px;\">1. Generación de PDF.</blockquote><blockquote style=\"margin: 0 0 0 40px; border: none; padding: 0px;\">2. Respuesta ante la solicitud</blockquote>"
+        }
+      ]
+    }
+  ]
+}
